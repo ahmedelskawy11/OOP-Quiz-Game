@@ -2,9 +2,9 @@
 #include <iomanip>
 #include <time.h>
 #include <fstream>
-#include "headers/questions.h"
-#include "headers/user.h"
-#include "headers/quiz.h"
+#include "questions.h"
+#include "user.h"
+#include "quiz.h"
 
 using namespace std;
 
