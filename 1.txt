@@ -1,0 +1,28 @@
+MCQArray  / CQArray  / TFArray :
+array fiha arqam random LL Questions like [13,20,6] w di el questions eli higolk fi elquiz
+
+MCQItrator/CQItrator/TFItrator :
+zi I kda b23d a3mlo ++ , lazmto bgib bih el elindex bta3 el array eli lsa 2ail 3liha *mcqArray msln* awl  
+McqArray[0] = 13 ;
+if McqItrator = 0 ;
+McqArray[McqItrator]==13==McqArray[0] .
+allMcq[McqArray[McqItrator]].questGetter(): kda da higbli el so2al el 13 goa el allMCQ w tzhro w kda .
+
+
+LastTwoQuizzes: belnsbalk allQuizes 3obara 3n Vector fiha kol elquizes eli d5ltha 
+
+LastTwoQuizzes.size()-1 : bi Access a5r quiz d5lto aknk fi array tbi3ia 
+
+LastTwoQuizzesReapet : number of question goa elquiz y3ni lw b 2 enta kda bt Access el Question eltalt
+
+LastTwoQuizzes[LastTwoQuizzes.size()-1].thisQuestion[LastTwoQuizzesReapet]: lw a3tbrna LastTwoQuizzesReapet = 0 ,
+
+yb2a elline da bigiblk elfirst question fi a5r quiz 3ndk.
+
+LastTwoQuizzes[LastTwoQuizzes.size()-1].thisQuestion[LastTwoQuizzesReapet]= allMcq[McqArray[McqItrator]].questGetter() ;
+
+el line da kda lw kmlna bnfs elarqam eli fo2 hi5li a5r quiz 3ndk elso2al el awl fih = elso2al 13 3ndk fi elmcq.
+
+
+bsht3`l leh 3la a5r quiz 3shan ana kol ama bstart quiz b3ml push llVector bta3t kol elquizes eli esmha LastTwoQuizzes bs elvariables
+eli goah fadiah f b3dl 3liha w a7tha wkda .
